@@ -12,8 +12,8 @@ from Lead_scoring_inference_pipeline.utils import *
 # ##############################################################################
 
 default_args = {
-    'owner': 'airflow',
-    'start_date': datetime(2022,7,30),
+    'owner': 'lax',
+    'start_date': datetime(2024,1,10),
     'retries' : 1, 
     'retry_delay' : timedelta(seconds=5)
 }
